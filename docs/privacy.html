@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidad — GILITECTOR</title>
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --surface: #141414;
+      --green: #00ff41;
+      --green-dim: #00ff4133;
+      --text: #d0d0d0;
+      --text-muted: #888;
+      --border: #222;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      padding: 3rem 1.5rem 2rem;
+      border-bottom: 1px solid var(--border);
+    }
+    header h1 {
+      color: var(--green);
+      font-size: 1.8rem;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      margin-bottom: 0.3rem;
+    }
+    header p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+    h2 {
+      color: var(--green);
+      font-size: 1.15rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin: 2.5rem 0 0.8rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--green-dim);
+    }
+    h3 {
+      color: #fff;
+      font-size: 1rem;
+      margin: 1.5rem 0 0.5rem;
+    }
+    p, li {
+      font-size: 0.95rem;
+      margin-bottom: 0.6rem;
+    }
+    ul {
+      padding-left: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    li { margin-bottom: 0.4rem; }
+    a { color: var(--green); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+      font-size: 0.9rem;
+    }
+    th, td {
+      text-align: left;
+      padding: 0.6rem 0.8rem;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--surface);
+      color: var(--green);
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+    }
+    td { background: var(--bg); }
+    .highlight {
+      background: var(--green-dim);
+      border-left: 3px solid var(--green);
+      padding: 0.8rem 1rem;
+      border-radius: 0 4px 4px 0;
+      margin: 1rem 0;
+      font-size: 0.9rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1.5rem;
+      border-top: 1px solid var(--border);
+      color: var(--text-muted);
+      font-size: 0.8rem;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.3rem; letter-spacing: 2px; }
+      main { padding: 1.5rem 1rem 3rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Política de Privacidad</h1>
+  <p>GILITECTOR &amp; GILITECTOR PREMIUM PLUS</p>
+  <p>Última actualización: 13 de marzo de 2026</p>
+</header>
+
+<main>
+
+  <h2>1. Introducción</h2>
+  <p>
+    Esta Política de Privacidad describe cómo <strong>Metaware</strong> («nosotros», «nuestro»)
+    recopila, utiliza y protege la información de los usuarios de las aplicaciones móviles
+    <strong>GILITECTOR</strong> (versión gratuita) y <strong>GILITECTOR PREMIUM PLUS</strong>
+    (versión de pago), en adelante denominadas conjuntamente «la Aplicación».
+  </p>
+  <p>
+    Al descargar, instalar o utilizar la Aplicación, usted acepta las prácticas descritas en esta
+    Política de Privacidad. Si no está de acuerdo, le rogamos que no utilice la Aplicación.
+  </p>
+
+  <h2>2. Responsable del tratamiento</h2>
+  <table>
+    <tr>
+      <th>Dato</th>
+      <th>Detalle</th>
+    </tr>
+    <tr>
+      <td>Responsable</td>
+      <td>Metaware</td>
+    </tr>
+    <tr>
+      <td>Contacto</td>
+      <td><a href="mailto:privacy@metaware.io">privacy AT metaware.io</a></td>
+    </tr>
+    <tr>
+      <td>Paquete (Free)</td>
+      <td><code>io.metaware.gilitector</code></td>
+    </tr>
+    <tr>
+      <td>Paquete (Premium)</td>
+      <td><code>io.metaware.gilitector.premium</code></td>
+    </tr>
+  </table>
+
+  <h2>3. Datos que recopilamos</h2>
+
+  <h3>3.1. Datos de ubicación</h3>
+  <p>
+    La Aplicación puede solicitar acceso a los <strong>servicios de geolocalización</strong> de su
+    dispositivo (GPS). Los datos de ubicación se utilizan exclusivamente para:
+  </p>
+  <ul>
+    <li>Calcular la proximidad a las «GILI-ÁREAS» configuradas por el usuario.</li>
+    <li>Mostrar un mapa geolocalizado como fondo visual durante la animación de detección.</li>
+    <li>Adaptar los textos humorísticos mostrados en función de la proximidad.</li>
+  </ul>
+  <div class="highlight">
+    <strong>Importante:</strong> Los datos de ubicación se procesan <strong>exclusivamente en el
+    dispositivo del usuario</strong>. No se envían, almacenan ni comparten con ningún servidor
+    externo propio. La Aplicación funciona correctamente sin acceso a la ubicación; en ese caso,
+    las funciones basadas en proximidad se desactivan automáticamente.
+  </div>
+
+  <h3>3.2. Datos almacenados localmente</h3>
+  <p>La Aplicación almacena los siguientes datos en el dispositivo del usuario:</p>
+  <table>
+    <tr>
+      <th>Dato</th>
+      <th>Almacenamiento</th>
+      <th>Finalidad</th>
+    </tr>
+    <tr>
+      <td>Valor del Gilipollómetro (0–100)</td>
+      <td>SharedPreferences</td>
+      <td>Configuración de sensibilidad del detector</td>
+    </tr>
+    <tr>
+      <td>Valor del Kermel (0–10)</td>
+      <td>SharedPreferences</td>
+      <td>Multiplicador de potencia del detector</td>
+    </tr>
+    <tr>
+      <td>GILI-ÁREAS (descripción, latitud, longitud)</td>
+      <td>Base de datos SQLite local</td>
+      <td>Zonas geográficas configuradas por el usuario</td>
+    </tr>
+  </table>
+  <p>
+    Estos datos <strong>nunca abandonan el dispositivo</strong> y no son accesibles por nosotros ni
+    por terceros. El usuario puede eliminarlos en cualquier momento desinstalando la Aplicación o
+    borrando los datos de la app desde los ajustes del sistema operativo.
+  </p>
+
+  <h3>3.3. Datos recopilados por terceros (solo versión gratuita)</h3>
+  <p>
+    La versión gratuita (<strong>GILITECTOR</strong>) muestra anuncios intersticiales a través de
+    <strong>Google AdMob</strong>. Google AdMob puede recopilar ciertos datos del dispositivo de
+    acuerdo con su propia política de privacidad, incluyendo:
+  </p>
+  <ul>
+    <li>Identificadores de publicidad del dispositivo (IDFA en iOS, GAID en Android).</li>
+    <li>Dirección IP.</li>
+    <li>Información del dispositivo (modelo, sistema operativo, versión).</li>
+    <li>Datos de interacción con los anuncios.</li>
+  </ul>
+  <p>
+    Para más información, consulte la
+    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de
+    Privacidad de Google</a> y la página
+    <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">Cómo
+    utiliza Google los datos de las apps</a>.
+  </p>
+  <div class="highlight">
+    La versión de pago (<strong>GILITECTOR PREMIUM PLUS</strong>) <strong>no incluye anuncios</strong>
+    ni integra el SDK de Google AdMob. No se comparte ningún dato con redes publicitarias.
+  </div>
+
+  <h3>3.4. Datos de mapas</h3>
+  <p>
+    La Aplicación utiliza tiles de mapas de <strong>OpenStreetMap</strong> para visualizar ubicaciones.
+    Las solicitudes de tiles se realizan directamente a los servidores de OpenStreetMap, que pueden
+    registrar la dirección IP del usuario conforme a su propia
+    <a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy" target="_blank" rel="noopener">política
+    de privacidad</a>. No se envía información personal identificable adicional en estas solicitudes.
+  </p>
+
+  <h2>4. Datos que NO recopilamos</h2>
+  <p>La Aplicación <strong>no</strong> recopila ni accede a:</p>
+  <ul>
+    <li>Nombre, dirección de correo electrónico o datos de contacto del usuario.</li>
+    <li>Contenido de mensajes, fotos, archivos o comunicaciones.</li>
+    <li>Historial de navegación o actividad en otras aplicaciones.</li>
+    <li>Datos biométricos (huella dactilar, reconocimiento facial).</li>
+    <li>Información financiera o de métodos de pago.</li>
+    <li>Datos de salud o actividad física.</li>
+  </ul>
+
+  <h2>5. Finalidad del tratamiento</h2>
+  <table>
+    <tr>
+      <th>Finalidad</th>
+      <th>Base legal</th>
+      <th>Datos implicados</th>
+    </tr>
+    <tr>
+      <td>Funcionamiento de la app (detección humorística basada en proximidad)</td>
+      <td>Consentimiento del usuario (permiso de ubicación)</td>
+      <td>Ubicación GPS (procesada localmente)</td>
+    </tr>
+    <tr>
+      <td>Almacenamiento de configuración del usuario</td>
+      <td>Interés legítimo (funcionalidad esencial)</td>
+      <td>Preferencias y GILI-ÁREAS (almacenamiento local)</td>
+    </tr>
+    <tr>
+      <td>Visualización de mapas</td>
+      <td>Consentimiento del usuario</td>
+      <td>Dirección IP (por OpenStreetMap)</td>
+    </tr>
+    <tr>
+      <td>Mostrar anuncios (solo versión gratuita)</td>
+      <td>Consentimiento del usuario</td>
+      <td>Identificadores publicitarios, IP (por Google AdMob)</td>
+    </tr>
+  </table>
+
+  <h2>6. Compartición de datos</h2>
+  <p>
+    <strong>No vendemos, alquilamos ni compartimos</strong> datos personales del usuario con terceros,
+    salvo lo indicado en la sección 3.3 respecto a Google AdMob en la versión gratuita.
+  </p>
+
+  <h2>7. Transferencias internacionales</h2>
+  <p>
+    Los datos procesados localmente en el dispositivo no se transfieren internacionalmente. Los datos
+    recopilados por Google AdMob (versión gratuita) y OpenStreetMap pueden procesarse en servidores
+    ubicados fuera del Espacio Económico Europeo, sujetos a las garantías establecidas en las
+    políticas de privacidad de dichos proveedores.
+  </p>
+
+  <h2>8. Retención de datos</h2>
+  <ul>
+    <li>
+      <strong>Datos locales</strong> (configuración, GILI-ÁREAS): se conservan mientras la Aplicación
+      esté instalada. Se eliminan completamente al desinstalar la app o al borrar los datos de la app
+      desde los ajustes del dispositivo.
+    </li>
+    <li>
+      <strong>Datos de AdMob</strong> (versión gratuita): sujetos a la política de retención de Google.
+    </li>
+  </ul>
+
+  <h2>9. Derechos del usuario</h2>
+  <p>
+    De conformidad con el <strong>Reglamento General de Protección de Datos (RGPD)</strong> y la
+    <strong>Ley Orgánica 3/2018 de Protección de Datos (LOPDGDD)</strong>, usted tiene derecho a:
+  </p>
+  <ul>
+    <li><strong>Acceso:</strong> Conocer qué datos suyos se tratan.</li>
+    <li><strong>Rectificación:</strong> Corregir datos inexactos.</li>
+    <li><strong>Supresión:</strong> Solicitar la eliminación de sus datos.</li>
+    <li><strong>Oposición:</strong> Oponerse al tratamiento de sus datos.</li>
+    <li><strong>Portabilidad:</strong> Recibir sus datos en un formato estructurado.</li>
+    <li><strong>Limitación:</strong> Solicitar la limitación del tratamiento.</li>
+    <li>
+      <strong>Retirada del consentimiento:</strong> Revocar el consentimiento otorgado en cualquier
+      momento, sin que ello afecte a la licitud del tratamiento previo.
+    </li>
+  </ul>
+  <p>
+    Para ejercer estos derechos, puede contactar con nosotros en
+    <a href="mailto:privacy@metaware.io">privacy@metaware.io</a>.
+  </p>
+  <p>
+    Asimismo, tiene derecho a presentar una reclamación ante la
+    <a href="https://www.aepd.es" target="_blank" rel="noopener">Agencia Española de Protección de
+    Datos (AEPD)</a>.
+  </p>
+
+  <h2>10. Seguridad</h2>
+  <p>
+    Todos los datos de la Aplicación se almacenan localmente en el dispositivo del usuario, protegidos
+    por los mecanismos de seguridad del propio sistema operativo (sandboxing de aplicaciones, cifrado
+    del dispositivo). No mantenemos servidores propios ni bases de datos remotas asociadas a esta
+    Aplicación.
+  </p>
+
+  <h2>11. Menores de edad</h2>
+  <p>
+    La Aplicación no está dirigida a menores de 13 años. No recopilamos conscientemente información
+    de menores de dicha edad. Si usted es padre, madre o tutor legal y cree que su hijo nos ha
+    proporcionado información, póngase en contacto con nosotros para que procedamos a su eliminación.
+  </p>
+
+  <h2>12. Permisos de la aplicación</h2>
+  <table>
+    <tr>
+      <th>Permiso</th>
+      <th>Plataforma</th>
+      <th>Motivo</th>
+      <th>Obligatorio</th>
+    </tr>
+    <tr>
+      <td>Ubicación (GPS)</td>
+      <td>Android / iOS</td>
+      <td>Detección de proximidad a GILI-ÁREAS y visualización de mapa</td>
+      <td>No — la app funciona sin él</td>
+    </tr>
+    <tr>
+      <td>Internet</td>
+      <td>Android / iOS</td>
+      <td>Carga de anuncios (versión gratuita) y tiles de mapas</td>
+      <td>Sí</td>
+    </tr>
+  </table>
+
+  <h2>13. Cambios en esta política</h2>
+  <p>
+    Nos reservamos el derecho de actualizar esta Política de Privacidad. Cualquier cambio será
+    publicado en esta misma página con la fecha de «última actualización» revisada. Le recomendamos
+    consultar esta página periódicamente.
+  </p>
+
+  <h2>14. Contacto</h2>
+  <p>
+    Si tiene preguntas, dudas o solicitudes relacionadas con esta Política de Privacidad, puede
+    contactar con nosotros en:
+  </p>
+  <ul>
+    <li><strong>Email:</strong> <a href="mailto:privacy@metaware.io">privacy AT metaware.io</a></li>
+  </ul>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 Metaware. Todos los derechos reservados.</p>
+  <p>GILITECTOR — El detector de gilis más GRANDE del mundo. Créanme.</p>
+</footer>
+
+</body>
+</html>
+
