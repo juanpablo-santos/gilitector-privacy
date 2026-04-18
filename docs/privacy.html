@@ -103,6 +103,16 @@
       color: var(--text-muted);
       font-size: 0.8rem;
     }
+    nav.lang-bar {
+      text-align: center;
+      padding: 0.8rem 1rem;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      font-size: 1.4rem;
+      letter-spacing: 0.5rem;
+    }
+    nav.lang-bar a { text-decoration: none; }
+    nav.lang-bar a:hover { opacity: 0.7; }
     @media (max-width: 600px) {
       header h1 { font-size: 1.3rem; letter-spacing: 2px; }
       main { padding: 1.5rem 1rem 3rem; }
@@ -111,10 +121,18 @@
 </head>
 <body>
 
+<nav class="lang-bar">
+  <a href="privacy.html" title="Español">🇪🇸</a>
+  <a href="privacy_en.html" title="English">🇬🇧</a>
+  <a href="privacy_fr.html" title="Français">🇫🇷</a>
+  <a href="privacy_de.html" title="Deutsch">🇩🇪</a>
+  <a href="privacy_zh.html" title="中文">🇨🇳</a>
+</nav>
+
 <header>
   <h1>Política de Privacidad</h1>
   <p>GILITECTOR &amp; GILITECTOR PREMIUM PLUS</p>
-  <p>Última actualización: 13 de marzo de 2026</p>
+  <p>Última actualización: 18 de abril de 2026</p>
 </header>
 
 <main>
@@ -193,6 +211,21 @@
       <td>Multiplicador de potencia del detector</td>
     </tr>
     <tr>
+      <td>Idioma seleccionado</td>
+      <td>SharedPreferences</td>
+      <td>Preferencia de idioma de la interfaz (es, en, de, fr, zh)</td>
+    </tr>
+    <tr>
+      <td>Estado del onboarding</td>
+      <td>SharedPreferences</td>
+      <td>Registro de si el usuario ha completado el tutorial inicial</td>
+    </tr>
+    <tr>
+      <td>Estado de compra (eliminación de anuncios)</td>
+      <td>SharedPreferences</td>
+      <td>Caché local de si el usuario adquirió la versión sin anuncios</td>
+    </tr>
+    <tr>
       <td>GILI-ÁREAS (descripción, latitud, longitud)</td>
       <td>Base de datos SQLite local</td>
       <td>Zonas geográficas configuradas por el usuario</td>
@@ -226,9 +259,25 @@
   <div class="highlight">
     La versión de pago (<strong>GILITECTOR PREMIUM PLUS</strong>) <strong>no incluye anuncios</strong>
     ni integra el SDK de Google AdMob. No se comparte ningún dato con redes publicitarias.
+    Los usuarios de la versión gratuita también pueden eliminar los anuncios permanentemente
+    mediante una compra integrada dentro de la app.
   </div>
 
-  <h3>3.4. Datos de mapas</h3>
+  <h3>3.4. Compras integradas (In-App Purchases)</h3>
+  <p>
+    La versión gratuita ofrece una compra no consumible para eliminar los anuncios permanentemente.
+    Las transacciones de compra se procesan íntegramente a través de <strong>Google Play</strong>
+    (Android) o <strong>App Store</strong> (iOS). La Aplicación no recopila, almacena ni tiene acceso
+    a datos financieros, métodos de pago o información de la transacción. Únicamente se almacena
+    localmente en el dispositivo un indicador booleano que registra si la compra fue realizada.
+  </p>
+  <p>
+    Para más información sobre cómo se procesan los pagos, consulte las políticas de privacidad de
+    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google</a> o
+    <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple</a>.
+  </p>
+
+  <h3>3.5. Datos de mapas</h3>
   <p>
     La Aplicación utiliza tiles de mapas de <strong>OpenStreetMap</strong> para visualizar ubicaciones.
     Las solicitudes de tiles se realizan directamente a los servidores de OpenStreetMap, que pueden
@@ -263,7 +312,7 @@
     <tr>
       <td>Almacenamiento de configuración del usuario</td>
       <td>Interés legítimo (funcionalidad esencial)</td>
-      <td>Preferencias y GILI-ÁREAS (almacenamiento local)</td>
+      <td>Preferencias, idioma, estado del onboarding y GILI-ÁREAS (almacenamiento local)</td>
     </tr>
     <tr>
       <td>Visualización de mapas</td>
@@ -274,6 +323,11 @@
       <td>Mostrar anuncios (solo versión gratuita)</td>
       <td>Consentimiento del usuario</td>
       <td>Identificadores publicitarios, IP (por Google AdMob)</td>
+    </tr>
+    <tr>
+      <td>Compras integradas (eliminación de anuncios)</td>
+      <td>Ejecución de contrato</td>
+      <td>Datos de la transacción (procesados por Google Play / App Store)</td>
     </tr>
   </table>
 
