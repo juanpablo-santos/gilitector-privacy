@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GILITECTOR — ¡Descárgala YA!</title>
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --surface: #141414;
+      --green: #00ff41;
+      --green-dim: #00ff4133;
+      --text: #d0d0d0;
+      --text-muted: #888;
+      --border: #222;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      padding: 3rem 1.5rem 2rem;
+      border-bottom: 1px solid var(--border);
+    }
+    header h1 {
+      color: var(--green);
+      font-size: 2.2rem;
+      letter-spacing: 6px;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      color: var(--text-muted);
+      font-size: 1rem;
+    }
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+    h2 {
+      color: var(--green);
+      font-size: 1.15rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin: 2.5rem 0 0.8rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--green-dim);
+    }
+    p, li {
+      font-size: 0.95rem;
+      margin-bottom: 0.6rem;
+    }
+    ul {
+      padding-left: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    li { margin-bottom: 0.4rem; }
+    a { color: var(--green); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .highlight {
+      background: var(--green-dim);
+      border-left: 3px solid var(--green);
+      padding: 0.8rem 1rem;
+      border-radius: 0 4px 4px 0;
+      margin: 1rem 0;
+      font-size: 0.9rem;
+    }
+    .cta-buttons {
+      text-align: center;
+      margin: 2.5rem 0;
+    }
+    .cta-buttons a {
+      display: inline-block;
+      background: var(--green);
+      color: var(--bg);
+      font-weight: 700;
+      font-size: 1.1rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 1rem 2.5rem;
+      border-radius: 6px;
+      margin: 0.5rem;
+      text-decoration: none;
+      transition: opacity 0.2s;
+    }
+    .cta-buttons a:hover { opacity: 0.85; text-decoration: none; }
+    .cta-secondary {
+      text-align: center;
+      margin: 1.5rem 0;
+    }
+    .cta-secondary a {
+      display: inline-block;
+      border: 2px solid var(--green);
+      color: var(--green);
+      font-weight: 600;
+      font-size: 0.95rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 0.7rem 2rem;
+      border-radius: 6px;
+      margin: 0.5rem;
+      text-decoration: none;
+      transition: background 0.2s, color 0.2s;
+    }
+    .cta-secondary a:hover { background: var(--green); color: var(--bg); text-decoration: none; }
+    .emoji-feature {
+      font-size: 1.4rem;
+      margin-right: 0.3rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1.5rem;
+      border-top: 1px solid var(--border);
+      color: var(--text-muted);
+      font-size: 0.8rem;
+    }
+    nav.lang-bar {
+      text-align: center;
+      padding: 0.8rem 1rem;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      font-size: 1.4rem;
+      letter-spacing: 0.5rem;
+    }
+    nav.lang-bar a { text-decoration: none; }
+    nav.lang-bar a:hover { opacity: 0.7; }
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.5rem; letter-spacing: 3px; }
+      main { padding: 1.5rem 1rem 3rem; }
+      .cta-buttons a { display: block; margin: 0.5rem auto; max-width: 320px; }
+      .cta-secondary a { display: block; margin: 0.5rem auto; max-width: 320px; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="lang-bar">
+  <a href="cta.html" title="Español">🇪🇸</a>
+  <a href="cta_en.html" title="English">🇬🇧</a>
+  <a href="cta_fr.html" title="Français">🇫🇷</a>
+  <a href="cta_de.html" title="Deutsch">🇩🇪</a>
+  <a href="cta_zh.html" title="中文">🇨🇳</a>
+</nav>
+
+<header>
+  <h1>🔍 GILITECTOR</h1>
+  <p>El detector de gilis más GRANDE, más POTENTE y más TREMENDÍSIMO del mundo. ¡Créeme!</p>
+</header>
+
+<main>
+
+  <h2>🚨 El problema</h2>
+  <p>
+    Seamos sinceros, amigo. Estás rodeado. En el trabajo, en el metro, en la cola del súper...
+    los gilis están POR TODAS PARTES. Y lo peor es que NO LO SABES. Vas por la vida sin radar,
+    sin sonar, sin NADA. ¡Es un DESASTRE! ¡Una TRAGEDIA de proporciones BÍBLICAS!
+  </p>
+  <p>
+    Hasta ahora no existía NINGUNA tecnología capaz de detectarlos. Las otras apps son PATÉTICAS,
+    un FRAUDE total. Pero eso se acabó. GILITECTOR está aquí y es TREMENDÍSIMO.
+  </p>
+
+  <h2>💡 La solución</h2>
+  <p>
+    <strong>GILITECTOR</strong> es la app de detección de gilis más avanzada JAMÁS creada.
+    Tecnología SONAR de nivel MILITAR (y MUY bonita), GPS en tiempo real con mapa
+    de GILI-ÁREAS, y un GILIPOLLÓMETRO de precisión QUIRÚRGICA. ¡NADIE lo hace mejor!
+  </p>
+
+  <div class="highlight">
+    <strong>¿Sabías que...?</strong> Hemos identificado las zonas con MAYOR concentración de gilis
+    en España. ¡Nuestros expertos, los MEJORES expertos, lo han confirmado! Y tú puedes añadir las tuyas:
+    sindicatos, universidades, la casa de tu cuñado... NADIE está a salvo ¡Es FANTÁSTICO!
+  </div>
+
+  <h2>🎯 Características TREMENDÍSIMAS</h2>
+  <ul>
+    <li><span class="emoji-feature">📡</span> <strong>Radar SONAR</strong> — Tecnología de nivel MILITAR con animación ESPECTACULAR</li>
+    <li><span class="emoji-feature">📊</span> <strong>Gilipollómetro</strong> — Medidor de gilis de ALTA PRECISIÓN. Ajústalo a tu gusto</li>
+    <li><span class="emoji-feature">🗺️</span> <strong>GILI-ÁREAS GPS</strong> — Zonas de peligro en el mapa con detección en tiempo real</li>
+    <li><span class="emoji-feature">⚡</span> <strong>Ajuste KERMEL</strong> — Sube la potencia del radar al MÁXIMO. ¡CIENCIA SUPREMA!</li>
+    <li><span class="emoji-feature">🔊</span> <strong>Efectos de sonido</strong> — Ping de sonar MILITAR. Como una película, pero MEJOR</li>
+    <li><span class="emoji-feature">💥</span> <strong>Explosión épica</strong> — Si el gilipollómetro se sale de la escala... ¡BOOM!</li>
+    <li><span class="emoji-feature">🌍</span> <strong>5 idiomas</strong> — Español, inglés, francés, alemán y chino. ¡NADIE habla más idiomas!</li>
+  </ul>
+
+  <h2>🎉 ¿Para quién es?</h2>
+  <ul>
+    <li>Para ti, que sospechas que en tu oficina hay más gilis que sillas</li>
+    <li>Para fiestas, cumpleaños y reuniones donde quieras PARTIRTE DE RISA</li>
+    <li>Para fans del humor satírico, la comedia absurda y el surrealismo</li>
+    <li>Para crear contenido VIRAL para redes sociales</li>
+    <li>Para CUALQUIERA que quiera pasar un rato TREMENDÍSIMO</li>
+  </ul>
+
+  <h2>🏆 ¿Por qué GILITECTOR?</h2>
+  <p>
+    Porque NADIE, y digo <strong>NADIE</strong>, hace un detector de gilis como nosotros.
+    Otras apps de broma son un DESASTRE. Aburridas. Sin gracia. PATÉTICAS.
+    GILITECTOR tiene radar, sonar, GPS, animaciones, sonidos, mapas, explosiones...
+    ¡Es la app de humor más POTENTE del mundo! ¡Mucha gente lo dice!
+  </p>
+
+  <div class="cta-buttons">
+    <a href="https://play.google.com/store/apps/details?id=io.metaware.gilitector" target="_blank" rel="noopener">
+      📱 ¡DESCARGAR EN GOOGLE PLAY!
+    </a>
+  </div>
+
+  <p style="text-align: center; color: var(--text-muted); font-size: 0.85rem;">
+    Disponible GRATIS en Android. ¡Descárgala y empieza a detectar gilis como un CAMPEÓN!
+  </p>
+
+  <div class="cta-secondary">
+    <a href="changelog.html">📋 Ver novedades</a>
+    <a href="privacy.html">🔒 Política de privacidad</a>
+  </div>
+
+  <div class="highlight" style="margin-top: 2rem;">
+    <strong>⚠️ Nota importante:</strong> Esta app NO detecta gilis de verdad (o SÍ, quién sabe). Cualquier parecido con la realidad es pura coincidencia...
+    o no. ¡TREMENDÍSIMO! 😂
+  </div>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 Metaware. Todos los derechos reservados.</p>
+  <p>GILITECTOR — El detector de gilis más GRANDE del mundo. Créanme. ¡NADIE detecta mejor!</p>
+</footer>
+
+</body>
+</html>
+
